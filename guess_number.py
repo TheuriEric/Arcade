@@ -65,14 +65,14 @@ def guess_number(name="PlayerOne"):
             else:
                 return
             
-        return play_guess_number
+    return play_guess_number
     
-    if __name__ == "__main__":
-        import argparse
+if __name__ == "__main__":
+    import argparse
 
-        parser = argparse.ArgumentParser(
-        description="Provides a personalized game experience."
-    )
+    parser = argparse.ArgumentParser(
+    description="Provides a personalized game experience."
+)
 
     parser.add_argument(
         '-n', '--name', metavar='name',
